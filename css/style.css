@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.header{
+    position: relative;
+    padding: 0 0 60px 0;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.collapse ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.buttun button{
+    margin-left: 5px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.dict{
+    height: 39px;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 10px;
+    width: 155px;
+}
+
+.dict h5{
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.right-dict{
+    margin-left: 133px;
+    gap: 100px;
+}
+
+.left-dict a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 3;
+}
+
+.left-dict a:hover{
+    text-decoration: underline;
+}
+
+.left-dict h3{
+    padding: 4px 15px;
+    background: aliceblue;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right-dict img{
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.logo h5{
+    margin-top: 5px;
+    padding: 7px 45px;
+    font-size: 15px;
+    background: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.logo p{
+    margin-top: 25px;
+    line-height: 1;
+}
+
+.dict1, .dict2{
+    position: relative;
+    top: 14px;
+}
+
+.dict1 a{
+    padding: 10px 49px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.dict2 a{
+    padding: 10px 49px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.dict2 a button{
+    border: none;
+    font-weight: bold;
+}
+
+.dict1 a button{
+    font-weight: bold;
+}
+
+.right-img img{
+    height: 430px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.big h2{
+    font-weight: bold;
+    font-size: 60px;
+    color: #a39c9c;
+}
+
+.map h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.millions{
+    padding: 40px;
+}
+
+.right-text h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.right-text h3{
+    font-weight: bold;
+}
+
+.right-text p a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form img{
+    height: 50px;
+}
+
+.left-img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.footer{
+    padding: 50px;
+    background-color: #bfc1c3;
+}
+
+.quick-links{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.important-msg{
+    padding: 15px 0px 60px 0px;
+}
+
+.quick-links ul a{
+    color: black;
+}
+
+.quick-links h4{
+    margin-top: 18px;
+    position: relative;
+    left: 31px;
+}
+
+.subs{
+    position: relative;
+    left: 25px;
+}
+
+.subs input{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: 0;
+}
+
+.buttun2 button{
+    position: relative;
+    top: 15px;
+    left: 76px;
+}
+
+.follow{
+    gap: 25px;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    margin-left: 35%;
+}
+
+.follow h3{
+    font-weight: bold;
+}
+
+.copyright{
+    padding: 20px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.copyright p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image a img{
+    height: 85px;
+}
+
+@media only screen and (max-width: 600px) {
+    .buttun2 button{
+        position: relative;
+        left: 0;
+    }
+
+    .follow{
+        margin-left: 30px;
+    }
+
+    .quick-links{
+       position: relative;
+       top: 15px;
+       left: 10px;
+    }
+
+    .subs{
+        position: relative;
+        top: 25px;
+    }
+
+    .follow{
+        position: relative;
+        top: 50px;
+    }
+
+    .right-text{
+        position: relative;
+        top: 20px;
+        
+    }
+
+    .copyright2{
+        flex-direction: column;
+    }
+
+    .big h2{
+        font-size: 55px;
+    }
+
+    .dict1{
+        margin-top: 300px;
+    }
+  }
